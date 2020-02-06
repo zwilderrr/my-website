@@ -1,0 +1,9 @@
+.contact {
+  display: block;
+  position: absolute;
+  top: 1vw;
+  right: 2vw;
+  height: auto !important;
+  width: auto !important;
+  font-size: 2vw;
+}
