@@ -8,18 +8,17 @@ import Experience from "./components/Experience";
 const App = () => {
   return (
     <div className="app">
-      <div className="name">Zack Wilder</div>
-
-      <Contact />
+      <div className="header">
+        <div className="name">Zack Wilder</div>
+        <Contact />
+      </div>
 
       <div className="tile-container">
         <div>
-          <div className="left-row">
-            <About />
-            <Technologies />
-          </div>
-          <Experience />
+          <About />
+          <Technologies />
         </div>
+        <Experience />
       </div>
     </div>
   );

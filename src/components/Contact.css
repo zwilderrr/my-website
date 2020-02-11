@@ -7,3 +7,11 @@
   width: auto !important;
   font-size: 2vw;
 }
+
+@media only screen and (max-width: 430px) {
+  .contact {
+    font-size: 12px;
+    position: relative;
+    top: 2vw;
+  }
+}
