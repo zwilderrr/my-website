@@ -6,6 +6,10 @@
   display: flex;
 }
 
+.left-column {
+  width: 90vw;
+}
+
 .name {
   font-size: 12vw;
   padding-left: 2vw;
@@ -24,9 +28,9 @@
 }
 
 .tile-container {
-  margin: auto;
   max-width: 1200px;
   font-size: 1.2vw;
+  margin: auto;
 }
 
 .tile-container {

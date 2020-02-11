@@ -14,7 +14,7 @@ const App = () => {
       </div>
 
       <div className="tile-container">
-        <div>
+        <div className="left-column">
           <About />
           <Technologies />
         </div>
