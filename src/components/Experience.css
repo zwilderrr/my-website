@@ -9,3 +9,17 @@ ul {
 .block:last-of-type {
   margin-bottom: 0;
 }
+
+.projects-heading {
+  font-size: 24px;
+  margin: 30px 0 5px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+  .projects-heading {
+    font-size: 22px;
+    margin: 30px 0 5px;
+    font-weight: 600;
+  }
+}

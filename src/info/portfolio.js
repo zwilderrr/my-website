@@ -1,7 +1,17 @@
+import React from "react";
+
 export const portfolio = [
   {
     title: "GreetMe",
-    website: "http://greet.me/chrome",
+    website: (
+      <a
+        href="https://getgreet.me/chrome"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        https://getgreet.me/chrome
+      </a>
+    ),
     tagline:
       "Five-star rated Google Chrome extension that helps keep you calm, composed, and task-focused",
     description: [
