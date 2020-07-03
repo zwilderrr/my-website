@@ -9,6 +9,12 @@
   right: 0;
   border-top: solid;
   margin-top: 8vh;
+  opacity: 0;
+  animation: fadeIn 1s ease 5s forwards;
+  -webkit-animation: fadeIn 1s ease 5s forwards;
+  -moz-animation: fadeIn 1s ease 5s forwards;
+  -o-animation: fadeIn 1s ease 5s forwards;
+  -ms-animation: fadeIn 1s ease 5s forwards;
 }
 
 @media only screen and (max-width: 600px) {
