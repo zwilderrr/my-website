@@ -8,11 +8,11 @@
   max-width: 1100px;
   margin: auto;
   opacity: 0;
-  animation: fadeIn 1s ease 4.2s forwards;
-  -webkit-animation: fadeIn 1s ease 4.2s forwards;
-  -moz-animation: fadeIn 1s ease 4.2s forwards;
-  -o-animation: fadeIn 1s ease 4.2s forwards;
-  -ms-animation: fadeIn 1s ease 4.2s forwards;
+  animation: fadeIn 1s ease 4s forwards;
+  -webkit-animation: fadeIn 1s ease 4s forwards;
+  -moz-animation: fadeIn 1s ease 4s forwards;
+  -o-animation: fadeIn 1s ease 4s forwards;
+  -ms-animation: fadeIn 1s ease 4s forwards;
 }
 
 .left {
