@@ -1,27 +1,37 @@
 import React from "react";
 import "./App.css";
 import About from "./components/About";
-import Technologies from "./components/Technologies";
+import Education from "./components/Education";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
+import Header from "./components/Header";
 
-const App = () => {
+function App() {
   return (
-    <div className="app">
-      <div className="header">
-        <div className="name">Zack Wilder</div>
+    <>
+      <div className="app-container">
+        <Header />
+        <div className="content-container fade-in">
+          <div className="left">
+            <div className="about tile">
+              <About />
+            </div>
+            <div className="education tile">
+              <Education />
+            </div>
+          </div>
+          <div className="right">
+            <div className="experience tile">
+              <Experience />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="footer">
         <Contact />
       </div>
-
-      <div className="tile-container">
-        <div className="left-column">
-          <About />
-          <Technologies />
-        </div>
-        <Experience />
-      </div>
-    </div>
+    </>
   );
-};
+}
 
 export default App;

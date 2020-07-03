@@ -1,0 +1,17 @@
+.header {
+  color: black;
+}
+
+.name {
+  font-size: 12vw;
+}
+
+.name-cursor {
+  font-size: 10vw;
+}
+
+.text {
+  font-size: 3vw;
+  position: relative;
+  bottom: 1vw;
+}

@@ -3,21 +3,29 @@ import { experience } from "../info/experience";
 import "./Experience.css";
 
 const Experience = () => (
-  <div className="tile experience">
-    <div className="tile-title">Selected Experience</div>
+  <div>
+    <div className="section-title" style={{ color: "yellowgreen" }}>
+      Experience
+    </div>
     {experience.map((item, i) => (
-      <div key={i} className="spacer-one">
-        <div className="tile-header">
-          {item.title} @ {item.company} ({item.location}) | {item.from} -{" "}
-          {item.to}
+      <div className="block" key={i}>
+        <div>
+          <span className="bold">
+            {item.title} @ {item.company}
+          </span>{" "}
+          <span>
+            ({item.location}) | {item.from} - {item.to}
+          </span>
         </div>
         <div>{item.summary}</div>
-        <div className="">{item.tech}</div>
-        <div className="">
+        <div className="italic">{item.tech}</div>
+        <ul>
           {item.description.map((line, i) => (
-            <div key={i}>- {line}</div>
+            <li key={i} className="description">
+              {line}
+            </li>
           ))}
-        </div>
+        </ul>
       </div>
     ))}
   </div>

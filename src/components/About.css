@@ -1,3 +1,7 @@
-.about {
-  background: tomato;
+.two-col {
+  display: flex;
+}
+
+.two-col > div {
+  flex: 1;
 }
