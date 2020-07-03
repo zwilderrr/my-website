@@ -29,13 +29,13 @@ function Header() {
         >
           <Typist.Delay ms={2000} />
           {/* <span className="text">{stunt}</span> */}
-          <Typist.Delay ms={800} />
+          {/* <Typist.Delay ms={800} /> */}
           {/* <span className="text"> ???</span> */}
           {/* <Typist.Delay ms={800} /> */}
           {/* <Typist.Backspace count={stunt.length} ms={300} /> */}
           {/* <Typist.Delay ms={500} /> */}
           <span className="text">{engineer}</span>
-          <Typist.Delay ms={1200} />
+          <Typist.Delay ms={1000} />
           <span className="text" style={{ color: "tomato" }}>
             .
           </span>
