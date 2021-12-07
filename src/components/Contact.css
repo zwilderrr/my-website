@@ -1,25 +1,26 @@
 .contact {
-  display: flex;
-  justify-content: space-around;
-  font-size: 2vw;
-  height: 100px;
-  align-items: center;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  border-top: solid;
-  margin-top: 8vh;
-  opacity: 0;
-  animation: fadeIn 1s ease 4s forwards;
-  -webkit-animation: fadeIn 1s ease 4s forwards;
-  -moz-animation: fadeIn 1s ease 4s forwards;
-  -o-animation: fadeIn 1s ease 4s forwards;
-  -ms-animation: fadeIn 1s ease 4s forwards;
+	display: flex;
+	justify-content: space-around;
+	font-size: 2vw;
+	height: 100px;
+	align-items: center;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-top: solid;
+	margin-top: 8vh;
+	opacity: 0;
+	animation: fadeIn 1s ease 4s forwards;
+	-webkit-animation: fadeIn 1s ease 4s forwards;
+	-moz-animation: fadeIn 1s ease 4s forwards;
+	-o-animation: fadeIn 1s ease 4s forwards;
+	-ms-animation: fadeIn 1s ease 4s forwards;
 }
 
 @media only screen and (max-width: 600px) {
-  .contact {
-    font-size: 16px;
-    height: 75px;
-  }
+	.contact {
+		font-size: 16px;
+		height: 75px;
+		padding-bottom: 30px;
+	}
 }
