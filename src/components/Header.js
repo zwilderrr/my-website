@@ -2,8 +2,6 @@ import React from "react";
 import "./Header.css";
 import Typist from "react-typist";
 
-const engineer = ;
-
 function Header() {
 	return (
 		<>
