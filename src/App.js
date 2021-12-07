@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 import About from "./components/About";
 import Education from "./components/Education";
@@ -7,12 +7,10 @@ import Experience from "./components/Experience";
 import Header from "./components/Header";
 
 function App() {
-	const [skipIntro, setSkipIntro] = useState(false);
-
 	return (
 		<>
 			<div className="app-container">
-				<Header setSkipIntro={setSkipIntro} />
+				<Header />
 				<div
 					style={{ opacity: false ? 1 : "" }}
 					className="content-container fade-in"
