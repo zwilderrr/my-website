@@ -1,0 +1,97 @@
+.card-wrapper {
+	display: flex;
+}
+
+.home {
+	width: 70%;
+	margin: 10vw auto;
+	animation: fadeIn 1s ease 3s forwards;
+	opacity: 0;
+}
+
+.card {
+	flex: 1;
+	border-radius: 5px;
+	margin: 10px;
+	border: solid thick;
+}
+
+.card-content {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 10vw;
+	font-size: 2vw;
+}
+
+.card:hover {
+	cursor: pointer;
+	background-color: ghostwhite;
+}
+
+.card.blobstars:hover {
+	background-color: rgb(255, 161, 213);
+}
+
+@media only screen and (max-width: 600px) {
+	.home {
+		margin-top: 0;
+		width: 95%;
+	}
+	.card-wrapper {
+		flex-flow: column;
+	}
+	.card {
+		border: solid 2px;
+	}
+
+	.card-content {
+		height: 50vw;
+		font-size: 9vw;
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-o-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
