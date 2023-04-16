@@ -1,18 +1,33 @@
-.header {
-  color: black;
+.name {
+	color: black;
 }
 
-.name {
-  font-size: 10vw;
+.name span {
+	font-size: 10vw;
 }
 
 .name-cursor {
-  font-size: 10vw;
+	font-size: 10vw;
 }
 
-.text {
-  font-size: 3vw;
-  position: relative;
-  bottom: 1vw;
-  left: 4px;
+.title {
+	display: inline;
+}
+
+.title span {
+	font-size: 3vw;
+	position: relative;
+	bottom: 1vw;
+	left: 4px;
+}
+
+.title.orange span {
+	color: tomato;
+}
+
+@media only screen and (max-width: 600px) {
+	.title span {
+		font-size: 5vw;
+		left: 2px;
+	}
 }

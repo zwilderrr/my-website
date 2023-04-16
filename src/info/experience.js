@@ -4,7 +4,7 @@ export const experience = [
 		location: "New York, NY",
 		from: "Current",
 		title: "Software Engineer",
-		summary: "Frontend + blockchain development with Javascript/React and Go",
+		summary: "Frontend development with TypeScript and React",
 		description: [],
 	},
 	{

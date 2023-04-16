@@ -1,36 +1,29 @@
-import React from "react";
 import "./Header.css";
-import Typist from "react-typist";
+
+import React from "react";
+import { Typewriter } from "react-simple-typewriter";
 
 function Header() {
 	return (
 		<>
-			<div className="header">
-				<Typist
-					cursor={{
-						show: true,
-						element: <span className="name">&nbsp;</span>,
-					}}
-					avgTypingDelay={100}
-				>
-					<Typist.Delay ms={500} />
-					<span className="name">Zack Wilder</span>
-				</Typist>
-
-				<Typist
-					cursor={{
-						show: true,
-						element: <span className="text">&nbsp;</span>,
-					}}
-					avgTypingDelay={50}
-				>
-					<Typist.Delay ms={2000} />
-					<span className="text">software engineer</span>
-					<Typist.Delay ms={1000} />
-					<span className="text" style={{ color: "tomato" }}>
-						.
-					</span>
-				</Typist>
+			<div className="name">
+				<div>
+					<Typewriter
+						words={["", "Zack Wilder"]}
+						typeSpeed={80}
+						delaySpeed={300}
+					/>
+				</div>
+				<div className="title">
+					<Typewriter
+						words={["", "software engineer"]}
+						delaySpeed={1600}
+						typeSpeed={50}
+					/>
+				</div>
+				<div className="title orange">
+					<Typewriter words={["", "", "."]} delaySpeed={1500} />
+				</div>
 			</div>
 		</>
 	);

@@ -1,11 +1,4 @@
 export const tech = {
-  languages: ["JavaScript", "Python", "Ruby", "HTML/CSS", "Typescript", "SQL"],
-  frameworks: [
-    "React/Redux",
-    "Material-UI",
-    "Django",
-    "Rails",
-    "Express",
-    "SWR",
-  ],
+	languages: ["JavaScript", "Typescript", "HTML/CSS"],
+	frameworks: ["React", "MUI", "React Query", "React Testing Library"],
 };
