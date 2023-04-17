@@ -1,5 +1,6 @@
-import React from "react";
 import "./Contact.css";
+
+import React from "react";
 
 function Contact() {
 	return (
@@ -22,24 +23,6 @@ function Contact() {
 					github
 				</a>
 			</div>
-			{/* <div>
-        <a
-          href="https://medium.com/@zackwilder"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          medium
-        </a>
-      </div> */}
-			{/* <div>
-      <a
-        href="mailto:hi@zackwilder.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        > email
-      </a>
-    </div> */}
 		</div>
 	);
 }

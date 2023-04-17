@@ -12,11 +12,11 @@
 	max-width: 1100px;
 	margin: auto;
 	opacity: 0;
-	animation: fadeIn 1s ease 3s forwards;
-	-webkit-animation: fadeIn 1s ease 3s forwards;
-	-moz-animation: fadeIn 1s ease 3s forwards;
-	-o-animation: fadeIn 1s ease 3s forwards;
-	-ms-animation: fadeIn 1s ease 3s forwards;
+	animation: fadeIn 1s ease 2.95s forwards;
+	-webkit-animation: fadeIn 1s ease 2.95s forwards;
+	-moz-animation: fadeIn 1s ease 2.95s forwards;
+	-o-animation: fadeIn 1s ease 2.95s forwards;
+	-ms-animation: fadeIn 1s ease 2.95s forwards;
 }
 
 .left {
@@ -41,6 +41,10 @@
 
 .about {
 	border: solid thick tomato;
+}
+
+.hoverable:hover {
+	cursor: pointer;
 }
 
 .section-title {

@@ -1,5 +1,6 @@
 import "./Home.css";
 
+import { ExternalLinkIcon } from "../assets/ExternalLinkIcon";
 import { useNavigate } from "react-router-dom";
 
 export function Home() {
@@ -8,10 +9,7 @@ export function Home() {
 	return (
 		<div className="home">
 			<div className="card-wrapper">
-				<div
-					onClick={() => navigate("/cv", { state: "fromHome" })}
-					className="card"
-				>
+				<div onClick={() => navigate("/cv")} className="card">
 					<div className="card-content">CV</div>
 				</div>
 
@@ -20,7 +18,9 @@ export function Home() {
 						window.open("https://blobstars.io", "_blank", "noopener,noreferrer")
 					}
 					className="card blobstars"
+					style={{ position: "relative" }}
 				>
+					<ExternalLinkIcon />
 					<div className="card-content">BlobStarsNFT</div>
 				</div>
 
@@ -33,7 +33,9 @@ export function Home() {
 						)
 					}
 					className="card nonart"
+					style={{ position: "relative" }}
 				>
+					<ExternalLinkIcon />
 					<div className="card-content">nonart (soon)</div>
 				</div>
 			</div>

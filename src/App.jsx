@@ -1,11 +1,11 @@
 import "./App.css";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import React, { useEffect, useState } from "react";
 
-import { CV } from "./components/CV";
+import { CV } from "./pages/CV";
 import Header from "./components/Header";
-import { Home } from "./components/Home";
+import { Home } from "./pages/Home";
+import React from "react";
 
 function App() {
 	return (
