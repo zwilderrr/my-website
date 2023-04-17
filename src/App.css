@@ -1,5 +1,9 @@
+.app-container {
+	width: 90%;
+	margin: auto;
+}
+
 .content-container {
-	display: flex;
 	font-family: "Gill Sans";
 	font-size: 18px;
 	font-weight: 300;
@@ -39,11 +43,6 @@
 	border: solid thick tomato;
 }
 
-.app-container {
-	width: 90%;
-	margin: auto;
-}
-
 .section-title {
 	font-size: 40px;
 	margin: 10px 0;
@@ -72,11 +71,6 @@
 @media only screen and (max-width: 600px) {
 	ul {
 		padding-inline-start: 16px;
-	}
-
-	.content-container {
-		flex-flow: column;
-		font-size: 16px;
 	}
 
 	.header {

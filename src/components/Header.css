@@ -1,8 +1,8 @@
-.name span {
-	font-size: 10vw;
+.name:hover {
+	cursor: pointer;
 }
 
-.name-cursor {
+.name span {
 	font-size: 10vw;
 }
 
@@ -17,8 +17,8 @@
 	left: 4px;
 }
 
-.title.orange span {
-	color: tomato;
+.title.blue span {
+	color: powderblue;
 }
 
 @media only screen and (max-width: 600px) {

@@ -3,10 +3,7 @@
 }
 
 .home {
-	width: 70%;
 	margin: 10vw auto;
-	animation: fadeIn 1s ease 3s forwards;
-	opacity: 0;
 }
 
 .card {
@@ -20,17 +17,22 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	height: 10vw;
-	font-size: 2vw;
+	height: 14vw;
+	font-size: 2.5vw;
+	font-weight: 400;
 }
 
 .card:hover {
 	cursor: pointer;
-	background-color: ghostwhite;
+	background-color: powderblue;
 }
 
 .card.blobstars:hover {
 	background-color: rgb(255, 161, 213);
+}
+
+.card.nonart:hover {
+	background-color: ghostwhite;
 }
 
 @media only screen and (max-width: 600px) {
