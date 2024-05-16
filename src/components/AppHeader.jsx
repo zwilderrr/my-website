@@ -3,7 +3,7 @@ import "./Header.css";
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 
-function Header() {
+function AppHeader() {
 	return (
 		<div className="name" onClick={() => (window.location.href = "/")}>
 			<div>
@@ -27,4 +27,4 @@ function Header() {
 	);
 }
 
-export default Header;
+export default AppHeader;
