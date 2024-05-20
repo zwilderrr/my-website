@@ -26,7 +26,11 @@ export function Home() {
 
         <div
           onClick={() =>
-            window.open("https://getgreet.me", "_blank", "noopener,noreferrer")
+            window.open(
+              "https://master.d2bf28se2n7bfx.amplifyapp.com/",
+              "_blank",
+              "noopener,noreferrer"
+            )
           }
           className="card greetme"
           style={{ position: "relative" }}
