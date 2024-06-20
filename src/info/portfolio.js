@@ -2,10 +2,24 @@ import React from "react";
 
 export const portfolio = [
   {
+    title: "BlobStarsNFT",
+    website: (
+      <a href="https://blobstars.io" target="_blank" rel="noopener noreferrer">
+        https://blobstars.io
+      </a>
+    ),
+    tagline:
+      "BlobStars are a nod to EIP-4844 and a bright beacon of light for the kind crypto folks bringing important, often misunderstood, change to the world",
+    description: [
+      "830 unique holders minted 2,692 BlobStars generating ~$22,000 USD in 6 months.",
+      "Designed, wrote, and deployed every part of the project, including the NFTs, the smart contract, the website, the crypto wallet integration, and all copy.",
+    ],
+  },
+  {
     title: "GreetMe",
     website: (
       <a
-        href="https://getgreet.me/chrome"
+        href="https://master.d2bf28se2n7bfx.amplifyapp.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
